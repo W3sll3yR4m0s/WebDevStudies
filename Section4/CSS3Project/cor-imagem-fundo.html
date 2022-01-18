@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cor e Imagem de Fundo</title>
+		<meta charset="utf-8">
+
+		<!-- Internal Style Sheets -->
+		<style type="text/css">
+			
+			/*
+			body {
+				background-color: #f2f2f2;
+			}*/
+
+			/*
+			.fundo {
+				background-color: blue;
+			}*/
+
+			h1 {
+				/*
+				background-image: url('images/yoshi.png');*/
+
+				/*Podemos usar: repeat, no-repeat, repeat-x, repeat-y*/
+				background-repeat: no-repeat;
+
+				/*Mantém a imagem de fundo fixa (com fixed) independente do tamanho do conteúdo. Com scroll a imagem rola junto com o conteúdo.*/
+				background-attachment: scroll;
+
+				/*Ajusta a posição da imagem. Horizontalmente: left, center, right; Verticalmente: top center e bottom.*/
+				background-position: center center;
+			}
+
+			/*Fazendo, o que foi feito em h1, de outra maneira.*/
+			.fundo {
+				background: #f2f2f2 url('images/yoshi.png') no-repeat fixed right top;
+			}
+
+		</style>
+
+	</head>
+	<body class="fundo">
+
+		<h1>
+			Conteúdo de título 1<br>
+
+			<br><br><br><br><br><br>
+
+		</h1>
+
+		<p>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Interagi no mé, cursus quis, vehicula ac nisi. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<p>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Interagi no mé, cursus quis, vehicula ac nisi. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
+
+		<p>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta. Interagi no mé, cursus quis, vehicula ac nisi. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
+
+	</body>
+</html>

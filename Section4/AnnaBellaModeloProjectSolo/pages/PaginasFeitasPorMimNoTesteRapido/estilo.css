@@ -1,0 +1,35 @@
+.border-img {
+	border: 5px solid #AAAA9D;
+}
+
+.fundo {
+	background: #f2f2f2 url('../images/fundo.png');
+}
+
+.header {
+	background: #AAAA9D;
+	color: #6E6E6E;
+	font: bold 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 60px;
+	width: 900px;
+}
+
+.content {
+	background: white;
+	width: 900px;
+}
+
+.footer {
+	font: bold 10px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 900px;
+}
+
+h1 {
+	color: #AAAA9D;
+	font: bold 18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p {
+	font: normal 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}

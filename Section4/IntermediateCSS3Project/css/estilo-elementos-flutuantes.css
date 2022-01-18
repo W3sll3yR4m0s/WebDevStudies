@@ -1,0 +1,50 @@
+#principal {
+	border: 1px solid #CE160C;
+	background: #5D5D61;
+}
+
+.conteudo {
+	background: #CE160C;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+.conteudo-zero {
+	background: #127CBE;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+
+
+	float: left;
+
+}
+
+.conteudo1 {
+	background: #CE160C;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+
+	float: left;
+
+}
+
+.conteudoTotalFloat {
+	background: #127CBE;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+
+	float: left;
+
+}
+
+.clear {
+	/*Podemos usar: left, right, both and none.*/
+	clear: both;
+}

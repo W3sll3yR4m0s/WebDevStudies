@@ -1,0 +1,47 @@
+/*
+Modelo de Caixa
+*/
+
+.conteudo {
+	border: 1px solid red;
+
+	/*
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+
+	/*
+	padding: 20px 15px 10px 5px;*/
+
+	padding: 20px;
+
+	/*
+	padding: 20px 5px;*/
+
+	/*
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;*/
+
+	/*
+	margin: 20px 15px 10px 5px;*/
+
+	/*
+	margin: 20px 5px;*/
+
+	margin: 20px;
+
+	width: 150px;
+}
+
+/*As medidas das margens (margin) se sobrepõem "par a par". Denomina-se: margin-collapse.*/
+.conteudo2 {
+	border: 1px solid red;
+	padding: 20px;
+
+	margin: 50px;
+	
+	width: 150px;
+}

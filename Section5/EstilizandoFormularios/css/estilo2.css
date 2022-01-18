@@ -1,0 +1,68 @@
+/****************************
+ ESTILIZANDO FORMULÁRIOS - 2
+****************************/
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../images/fundo.jpg) no-repeat top center;
+}
+
+#container {
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	color: #424242;
+}
+
+input.email {
+	background-image: url(../images/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../images/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color: #f79300; /* Tom: Laranja */
+	border: 2px solid #db7d00; /* Tom: Laranja mais escuro */
+	/*text-align: center;*/
+	/*padding-left: 0px;*/
+	padding: 5px 20px;
+	height: 45%;
+	width: 90%;
+
+	/*Navegadores mais antigos podem não reconhecer. Por isso há uma cor sólida adicionada acima.*/
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	/*Para garantir que funcione em outros navegadores vamos colocar os pré-fixos.*/
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+
+}

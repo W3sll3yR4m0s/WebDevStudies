@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos (static, relative, absolute e fixed)</title>
+		<meta charset="utf-8">
+
+		<!-- Internal Style Sheets -->
+		<style type="text/css">
+
+			body {
+				background: #007fc7;
+			}
+			
+			#container {
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+
+				/*
+				position: relative;*/
+
+				position: relative;
+
+			}
+
+			/*O posicionamento static não altera nada em um elemento, pois o mesmo representa o comportamento padrão dos elementos. Não tenho certeza sobre qual deve ser sua utilidade!*/
+			h1 {
+				/*
+				position: static;*/
+			}
+
+			p {
+				width: 300px;
+				/*
+				position: static;*/
+			}
+
+			/*Posicionamento baseado na janela (viewport) do seu navegados!*/
+			.fixed {
+				border: 1px solid #B20E0E;
+				background: #f2f2f2;
+				margin: 0px;
+				position: fixed;
+				bottom: 0px;
+				right: 0px;
+			}
+
+			/*Posicionamento baseado no "container ao qual pertence" (estando essa "caixa/container" removida do fluxo inicial do documento), ou seja, desde que este seja não-estático (no-static)!*/
+			.absolute {
+				border: 1px solid #B20E0E;
+				background: #f2f2f2;
+				position: absolute;
+				top: 0px;
+				right: 20px;
+			}
+
+			/*Posicionamento relativo à posição original do elemento no fluxo padrão!*/
+			.relative {
+				border: 1px solid #B20E0E;
+
+				/*Para usarmos de forma que faça efeito, devemos usar propriedades de deslocamento:*/
+				position: relative;
+				/*Os 4 valores destas propriedades são: top, right, bottom and left*/
+				/*
+				top: 0px;
+				left: 0px;
+				right: 20px;*/
+				/*
+				bottom: 0px;*/
+				left: 100px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="container">
+
+			<div>
+				
+				<!-- 
+					<h1>Posicionamentos: static & relative</h1> -->
+				<h1>Posicionamento: absolute</h1>
+
+				<p>
+					P1 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p class="fixed">
+					P2 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P3 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P4 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P5 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P6 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P7 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P8 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P9 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P10 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+				<p>
+					P11 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+				</p>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>

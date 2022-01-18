@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Div e Span</title> <!-- div: Se comporta como bloco/container (ocupa toda a largura da página). Igual a <p>. -->
+								  <!-- span: Se comporta como objeto de linha (ocupa, somente, o espaço do objeto). -->
+		<meta charset="utf-8">
+
+		<!-- Internal Style Sheets -->
+		<style type="text/css">
+			
+			#topo {
+				background: blue;
+			}
+
+			#conteudo {
+				background: red;
+			}
+
+			#rodape {
+				background: green;
+			}
+
+			#assinatura {
+				background: pink;
+			}
+
+			.produto {
+				background: gray;
+				margin: 10px;
+			}
+
+			.azul {
+				color: blue;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<!-- Div referente ao Header/Cabeçalho -->
+		<div id="topo">
+			
+			<img src="images/amazon-prime.png" width="200">
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contato</li>
+			</ul>
+
+		</div>
+
+		<!-- Div referente ao conteúdo central da página (pode ser a lista de produtos). -->
+		<div id="conteudo">
+			
+			<!-- Div's para lista de produtos. -->
+			<div class="produto">
+				Produto 1
+			</div>
+
+			<div class="produto">
+				Produto 2
+			</div>
+
+			<div class="produto">
+				Produto 3
+			</div>
+
+		</div>
+
+		<!-- Div referente ao rodapé do site. -->
+		<div id="rodape">
+			
+			Todos os <span class="azul">direitos</span> reservados. <br>
+
+			<hr>
+
+			Todos os <p class="azul">direitos</p> reservados.
+
+		</div>
+
+		<span id="assinatura">
+			Jamilton
+		</span>
+		<span>
+			Damasceno
+		</span>
+
+	</body>
+</html>

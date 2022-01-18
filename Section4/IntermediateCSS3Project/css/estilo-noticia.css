@@ -1,0 +1,16 @@
+#noticia {
+	/*
+	background: #127CBE;*/
+	background: #f9f9f9;
+	/*
+	border: 1px solid #CE160C;*/
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+h2 {
+	/*
+	border: 1px solid #CE160C;*/
+	border: 1px solid gray;
+	margin: 0px;
+}

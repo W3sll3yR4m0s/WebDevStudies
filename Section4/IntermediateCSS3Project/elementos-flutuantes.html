@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elementos Flutuantes</title>
+		<meta charset="utf-8">
+
+		<!-- External Style Sheets -->
+		<link rel="stylesheet" type="text/css" href="css/estilo-elementos-flutuantes.css">
+
+	</head>
+	<body>
+
+		<div id="principal"> <!-- Esta "id" não fica por baixo das "div's" de conteúdo caso estas últimas estejam em modo flutuante (float). Ela virá antes do conteúdo, "deixará de estar ao funndo", porque os elementos flutuantes não deixarão a "caixa" expandir até que eles ocupem todo o espaçamento. O que fazer para resolver isso? Basta limpar o conteúdo do fluxo aplicando o atributo "clear" em um "bloco" posterior que fará com que o conteúdo seja totalmente preenchido. -->
+
+			<div class="conteudo-zero">
+				Conteúdo 1
+			</div>
+
+			<div class="conteudo-zero">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudo-zero">
+				Conteúdo 3
+			</div>
+
+			<!-- 
+			<div class="clear">Ok!</div> -->
+
+			<p class="clear">
+				Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Quem num gosta di mé, boa gentis num é. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+			</p>
+
+		</div>
+		
+		<p class="clear">
+			Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Quem num gosta di mé, boa gentis num é. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+		</p>
+
+	</body>
+</html>

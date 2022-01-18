@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sobrepondo elementos</title>
+		<meta charset="utf-8">
+
+		<!-- Internal Style Sheets -->
+		<style type="text/css">
+			
+			.conteudo1 {
+				border: 1px solid #CE160C;
+				background: #F1580C;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+
+				z-index: 0; /*"z-index" pode ser chamado de contexto de empilhamento.*/
+
+			}
+
+			.conteudo2 {
+				border: 1px solid #CE160C;
+				background: #0E5F08;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 80px;
+				left: 80px;
+
+				z-index: 2;
+
+			}
+
+			.conteudo3 {
+				border: 1px solid #CE160C;
+				background: #CEB817;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 160px;
+				left: 160px;
+
+				z-index: 1
+
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="conteudo1">
+			Conteúdo 1
+		</div>
+
+		<div class="conteudo2">
+			Conteúdo 2
+		</div>
+
+		<div class="conteudo3">
+			Conteúdo 3
+		</div>
+
+	</body>
+</html>
